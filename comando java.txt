@@ -1,0 +1,9 @@
+ <script>
+        alert("Você é maior ou menor de idade?")
+        var numero = prompt("Digite sua idade");
+        if(numero>=18){
+            alert("Você é garoto velho");
+        }else{
+            alert("Ce é meninao");
+        }   
+    </script>

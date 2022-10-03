@@ -1,0 +1,162 @@
+<html>
+<head>
+    <script>
+        alert("Voce eh maior ou menor de idade?")
+        var numero = prompt("Digite sua idade");
+        if(numero>=18){
+            alert("Voce eh garoto velho");
+        }else{
+            alert("Ce eh meninao");
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+<title>
+    Formulario
+</title>
+</head>
+<body>
+  <nav id="menu-h">
+    <ul>
+      <li><a href="avatar.html">Inicio</a></li>
+      <li><a href="https://pt.wikipedia.org/wiki/Avatar:_The_Last_Airbender">Historia</a></li>
+      <li><a href="personagens.html">Protagonista</a><li>
+      <li><a href="#">Formulario</a><li>
+    </ul>
+  </nav>
+  <h1 style="background-color:DodgerBlue;">Formulario</h1>
+<header>
+	
+		<nav> </nav>
+	</header>
+	
+	<section>
+		
+		<form>
+			<fieldset>
+				<legend> Cadastro de Fotografia </legend>
+				
+				<label for="arquivo"> Foto </label> 
+			    <input id="arquivo" type="file" required />
+				
+				<br>
+				
+				<label for="data"> Data do Clique </label> 
+				<input id="data" type="date" min="2022-02-01" max="2022-02-28" />
+				
+				
+				<label for="categorias" > Categoria </label>
+				<select id="categorias">
+					<option> Natureza </option>
+					<option> Urbano </option>
+					<option> Esporte </option>
+				</select>
+				
+				
+				<br>
+				
+				<label for="descfoto" > Descrição da foto </label>
+				<input  id="descfoto" type="text" minlength="10"  maxlength= "15"  />
+				
+				<br>
+				
+				<label for="nomeautor" > Seu nome</label>
+				<input id="nomeautor" type="text"  placeholder="Nome do autor" required />
+				
+				<br>
+				
+				<label for="email" >Seu email</label>
+				<input id="email" type="email" placeholder="xxxx@xxx.com" />
+				
+				<br>
+				
+				
+				<input id="autorizacao" type="checkbox" >
+				<label for="autorizacao" >Autorizo</label>
+				
+				<br>
+				
+				<label for="senha" >Senha</label>
+				<input id="senha" type="password" >
+				
+				
+				</br>
+				
+				<input value="Salvar"   type="submit" />
+				
+				
+				<br>
+				
+				<label for="numero" >Numero</label>
+				<input id="numero" type="number" min="0" max= "10" />
+				
+				<br>
+				
+				<label for="radio" >Radio</label>
+				
+				<input id="radio" type="radio"  name="opcao" />
+				<input id="radio2" type="radio" name="opcao"  />
+				<input id="radio3" type="radio"  name="opcao"  />
+				
+				
+				<br>
+				<input id="botao" onclick="alert('Aviso qualquer');"   type="button"  value="Alerta" />
+				
+				<br>
+				
+				<input type="color" />
+				
+				<br>
+				
+				<input type="image"  alt="texto" src="Imagens/download.png" />
+				
+				<br>
+				
+				<input type="hidden" value="Oi" />
+				
+				<br>
+				
+				<input type="time"/>
+				
+				<br>
+				
+				<input type="datetime-local" />
+				
+				<br>
+				
+				<input type="week" />
+				
+				<br>
+				
+				<input type="month" />
+				
+				<br>
+				
+				<input type="url"  required />
+				
+				<br>
+				
+				<input type="search"  required />
+				
+				
+				<br>
+				
+				<input type="tel"  required />
+				
+				<br>
+				
+				<input type="range"  required />
+				
+				
+			</fieldset>
+		</form>
+
+	</section>
+	
+	<footer> </footer>
+	
+ 
+ 
+ 
+ </body> 
+</html>
